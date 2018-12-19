@@ -4,8 +4,6 @@ files:
   - source: \
     destination: c:\temp\codedeploy_test_programs
 hooks:
-  BeforeInstall:
-    - location:
   AfterInstall:
     - location: Scripts/RunResourceTests.sh
       timeout: 180
