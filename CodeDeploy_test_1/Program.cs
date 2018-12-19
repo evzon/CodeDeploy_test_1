@@ -10,7 +10,7 @@ namespace CodeDeploy_test_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("codedeploy test 1");
+            Console.WriteLine("This is the application!!");
 
             Console.ReadKey();
         }
