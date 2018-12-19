@@ -4,12 +4,3 @@ files:
   - source: \
     destination: c:\temp\codedeploy_test_programs
 hooks:
-  AfterInstall:
-    - location: Scripts/RunResourceTests.sh
-      timeout: 180
-  ApplicationStart:
-    - location: Scripts/RunFunctionalTests.sh
-      timeout: 3600
-  ValidateService:
-    - location: Scripts/MonitorService.sh
-      timeout: 3600
